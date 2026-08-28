@@ -1,0 +1,216 @@
+DESENVOLVIMENTO WEB
+Introdução à Web e Evolução da Internet
+Objetivos da Aula
+Ao final da aula, o estudante será capaz de:
+
+
+Diferenciar Internet de Web de forma clara.
+Identificar os principais componentes da arquitetura web (cliente, servidor, protocolos).
+Explicar o papel de navegadores, servidores e protocolos (HTTP/HTTPS).
+Descrever a evolução da Web (1.0, 2.0 e tendências atuais).
+Analisar o passo a passo do acesso a um site, desde a digitação da URL até a exibição da página.
+
+1. Internet × Web
+Internet é uma infraestrutura física e lógica — cabos, roteadores, satélites, protocolos (TCP/IP) — que conecta computadores no mundo todo.
+Web (World Wide Web) é um serviço que funciona *sobre* a Internet. Ela permite acessar páginas com textos, imagens, vídeos e links, usando navegadores.
+
+
+Analogia:  
+Internet é a estrada. Web é um dos veículos que trafega por ela (como um carro de entrega de páginas).
+
+
+✅ Serviços que usam a Internet, mas não são Web: e-mail (SMTP), jogos online (servidores próprios), streaming de vídeo (protocolos específicos), chamadas de voz (VoIP).  
+✅ Serviços que são Web: sites, lojas virtuais, redes sociais acessadas pelo navegador.
+
+
+Pergunta para refletir:  
+> Você usa WhatsApp pelo navegador? Isso é Web. 
+> Pelo aplicativo do celular? Não é Web, mas usa Internet.
+2. Como a Web Funciona? (Fluxo simplificado)
+Usuário digita uma URL no navegador.
+Navegador descobre onde está o servidor (usando DNS).
+Navegador envia uma requisição HTTP/HTTPS.
+Servidor processa e envia uma resposta (HTML, CSS, JS, imagens).
+Navegador interpreta o código e exibe a página.
+
+
+
+Exemplo visual:
+
+
+Você digita: https://www.exemplo.com
+       ↓
+Navegador → pergunta ao DNS onde está "exemplo.com"
+       ↓
+Servidor envia o arquivo index.html
+       ↓
+Navegador monta a página e mostra na tela
+3. Conceitos Fundamentais
+Conceito 
+Explicação simples
+URL
+Endereço único de um recurso na Web. 
+Ex: https://github.com/joao
+HTTP
+Protocolo de comunicação que permite pedir e receber páginas. 
+HTTPS
+Versão segura (criptografada) do HTTP. O cadeado no navegador indica segurança.
+Navegador
+Programa que interpreta HTML/CSS/JS e exibe páginas. (Chrome, Firefox, Edge)
+Servidor Web
+Computador remoto que armazena os arquivos do site e responde às requisições.
+
+
+
+
+4. Navegadores e Servidores
+Navegador (Cliente)
+Servidor Web
+Faz requisições
+Escuta requisições
+Exibe interface visual
+Não tem tela (só envia dados)
+Exemplos: Chrome, Firefox
+Exemplos: Apache, Nginx, IIS
+
+
+
+Importante:O mesmo computador pode funcionar como cliente e servidor em situações diferentes.
+5. Evolução da Web
+🕸️ Web 1.0 (década de 1990 – início anos 2000)
+- Leitura apenas. Conteúdo estático (HTML puro).
+- Sites institucionais, enciclopédias online.
+- Usuário como espectador.
+
+
+🌟 Web 2.0 (meados 2000 – 2010)
+- Leitura e escrita. Usuário participa: comenta, curte, posta.
+- Redes sociais (Orkut, Facebook), wikis, blogs, YouTube.
+- Conteúdo gerado por usuários.
+
+
+⚡ Tendências atuais (Web 3.0? + IA)
+- Mobile First (celular como prioridade).
+- Computação em nuvem (Google Docs, Netflix).
+- Inteligência Artificial gerando conteúdo (ChatGPT, recomendação).
+- Aplicações web complexas (Figma, Canva, Google Maps).
+
+
+
+Demonstração Prática (15 min)
+Ferramentas do Desenvolvedor (DevTools) – atalho `F12` no Chrome.
+
+
+Mostrar:
+- Elements → estrutura HTML da página.
+- Network → todas as requisições (imagens, CSS, JS).
+- Console → onde aparecem erros e mensagens do JavaScript.
+Atividade Prática (35 min)
+Título: "Sob o Capô da Web"
+
+
+Objetivo: Investigar sites reais usando DevTools, aplicando os conceitos vistos.
+
+
+Parte 1 – Observação rápida (10 min)
+Acesse cada um dos sites abaixo e anote no caderno:
+1. Google – `https://www.google.com`  
+2. Wikipédia – `https://pt.wikipedia.org`  
+3. Portal do Governo – `https://www.gov.br`
+
+
+Para cada site, responda:
+Pergunta 
+Google 
+Wikipédia 
+Gov.br
+URL completa
+https://www.google.com/
+https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal
+https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal
+Usa HTTPS? (cadeado)
+Sim
+Sim
+Sim
+Objetivo principal
+Pesquisar domínios
+Propagar informações
+Funções sociais para a população brasileira
+Parece estático ou dinâmico?
+Sim
+Sim
+Sim
+
+> Estático = conteúdo quase não muda
+> Dinâmico = muda conforme usuário, data ou interação.
+
+Parte 2 – Inspeção HTML (10 min)
+Abra o DevTools (F12), aba Elements.  
+Encontre e anote a tag HTML dos elementos:
+Elemento 
+ Tag (ex: h1, img, a)
+Site usado
+Título principal da página
+
+
+
+
+Uma imagem
+
+
+
+
+Um link (para outra página)
+
+
+
+
+
+
+
+Parte 3 – Análise de rede (15 min)
+1. Abra a aba Network no DevTools.
+2. Atualize a página (F5).
+3. Observe a lista de requisições.
+
+
+Responda:
+1. Quantas requisições o Google fez? E a Wikipédia?  
+2. Quais tipos de arquivo aparecem? (HTML, CSS, JS, imagem, etc.)  
+3. Qual dos três sites parece mais "leve" (menos requisições)? Por quê?
+
+
+Desafio extra: Na Wikipédia, encontre uma requisição de imagem. Clique nela → veja o tempo de carregamento.
+
+Discussão em Grupo (15 min)
+Organizar a turma em grupos de 3–4 pessoas. Cada grupo responde oralmente e um porta-voz compartilha:
+
+
+1. Por que praticamente todo site hoje usa HTTPS?  
+Porque os navegadores alertam os usuários sobre site sem HTTPS não serem seguros, tirando a credibilidade do site. HTTPS aumenta a segurança e criptografia do usuário e do servidor.
+
+
+2. O que aconteceria se navegadores não interpretassem HTML?  
+Veríamos o código em texto da estrutura do arquivo da página.
+
+
+3. Qual a maior mudança da Web 1.0 para a Web 2.0?  
+Sites se tornaram interativos e dinâmicos.
+
+
+4. Como a IA pode mudar o desenvolvimento web no futuro?:
+Sites menos confiáveis
+ Menos empregabilidade para desenvolvedores web.
+Facilidade para criar sites dinâmicos.
+Material Complementar (para consulta)
+- 🎥 Vídeo (inglês, legenda em português):  
+   How the Internet Works in 5 Minutes
+
+
+- 🧠 Simulação interativa (Code.org):  
+   How the Internet Works
+
+
+- 📘 Leitura recomendada (MDN, gratuito):  
+   Como a Web funciona – MDN Web Docs
+
