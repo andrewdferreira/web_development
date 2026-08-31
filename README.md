@@ -26,12 +26,6 @@ Novas aulas e atividades serão adicionadas ao repositório conforme o conteúdo
 	cd web_development
 	```
 
-3. Abra o arquivo HTML desejado diretamente no navegador. Por exemplo:
-
-	```text
-	Aula1/aula1.html
-	```
-
 Também é possível utilizar a extensão **Live Server** no Visual Studio Code para visualizar as alterações em tempo real.
 
 ## Tecnologias
