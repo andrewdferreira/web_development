@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditor de Acessibilidade – Diagnosticando e Corrigindo</title>
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #333;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/lindaojpg.jpg" alt="Foto de perfil de Andrew - sorrindo em frente ao computador">
+        <h1><strong>Nome:</strong> Andrew da Silva Ferreira</h1>
+        <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+    </header>
+
+        <nav>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="hobbies">Hobbies</a>
+        <a href="objetivos">Objetivos profissionais</a>
+        <a href="sites">Sites que mais acesso</a>
+        <a href="#contato">Contato</a>
+        <a href="#conhecimentos">Conhecimentos</a>
+        <a href="#contato-form">Formulário de contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>✨ Sobre mim</h2>
+            <p>Tenho 18 anos, gosto de música sacra, de estudar e
+                de desenvolver projetos para o meu portifólio.
+                Atualmente estudo com foco em ser DevOps e estou buscando estágio!
+            </p>
+
+            <p>O que me motiva a estudar tecnologia é a vontade de 
+                participar de projetos e operações que contribuem para
+                a sociedade. 
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>🛠️ Tecnologias que já vi</h2>
+    
+            <ul type="circle">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>Linux</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>🎮 Meus hobbies favoritos</h2>
+            <ul type="circle">
+                <li>Jogar com os amigos</li>
+                <li>Sair com a família</li>
+                <li>Tocar clarinete e trompete</li>
+                <li>Tocar violão</li>
+                <li>Ler</li>
+                <li>Estudar programação</li>
+            </ul>
+
+            <h3>Galeria dos meus hobbies</h3>
+                <img src="images/violao.jpg" alt="Homem tocando violão'" width="150">
+                <img src="images/computador.jpeg" alt="Menino jogando no computador" width="150">
+                <img src="images/estudar.jpg" alt="Homem programando" width="150">
+
+        </section>
+
+        <section id="objetivos">
+            <h2>🎯Objetivos profissionais</h2>
+            <ul type="circle">
+                <li><strong>Curto prazo (6 meses):</strong> Ter uma base teórica e prática bem fundamentada em automação e containerização.</li>
+                <li><strong>Médio prazo (1-2 anos):</strong> Ter muitos projetos pessoais e capacidade para ser um DevOps Junior.</li>
+                <li><strong>Longo prazo (3-5 anos):</strong> Estar trabalhando enquanto dou monitoria ou começo uma empresa.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>🔗 Links para me encontrar</h2>
+            <ul type="circle">
+                <li><a href="https://github.com/andrewdferreira">Meu Github</a></li>
+                <li><a href="https://www.linkedin.com/in/andrew-sferreira/">Meu Linkedin</a></li>
+                <li><a href="andrewdferreira@gmail.com">Meu email</a></li>
+            </ul>
+        </section>
+
+        <section id="sites">
+            <h2>⭐ Top 5 sites que mais acesso</h2>
+            <ul type="circle">
+                <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                <li><a href="https://mail.google.com" target="_blank">Gmail</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.netacad.com/" target="_blank">Cisco Netacad</a></li>
+            </ul>
+        </section>
+
+        <section id="conhecimentos">
+            <h2>Meus Conhecimentos</h2>
+            <table border="dashed">
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Experiência (meses)</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Básico</td>
+                    <td>2 meses</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Iniciante</td>
+                    <td>1 mês</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Em breve</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermediário</td>
+                    <td>8 meses</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Iniciante</td>
+                    <td>3 meses</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contato-form">
+            <h2>Entre em contato</h2>
+    
+            <form>
+                <label for="nomeContato">Nome:</label>
+                <input type="text" id="nomeContato" required>
+                <br><br>
+
+                <label for="emailContato">E-mail:</label>
+                <input type="email" id="emailContato" required>
+                <br><br>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" placeholder="Dúvida, sugestão, orçamento...">
+                <br><br>
+
+                <label for="mensagemContato">Mensagem:</label>
+                <textarea id="mensagemContato" placeholder="Digite sua mensagem aqui..."></textarea>
+                <br><br>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+        
+        <aside>
+            <h3>📌 Curiosidade sobre mim</h3>
+            <p>Quando eu era pequeno, meu sonho era comer um Doritos grande com suco de pessêgo jogando no computador.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <h2>Andrew da Silva Ferreira - 2026</h2>
+    </footer>
+
+</body>
+</html>
