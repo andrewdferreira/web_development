@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: #000000;
+    --prussian-blue: #14213d;
+    --orange: #fca311;
+    --alabaster-grey: #e5e5e5;
+    --white: #ffffff;
+}
+
+body {
+    background-color: #1f1b1b;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--white);
+    border: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    border-radius: 100%;
+    width: 200px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.destaque {
+    color: var(--alabaster-grey);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: var(--white);
+    background-color: var(--prussian-blue);
+    margin: 10px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+h2 {
+    color: var(--orange);
+}
+
+form label {
+    margin: 2px
+}
+
+form input {
+    margin: 2px;
+}
+
+#hobbies img{
+    display: flex;
+    margin: 20px;
+    width: 200px;
+    justify-content: center;
+
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+aside h3{
+    margin-right: 5px;
+}
+
+
