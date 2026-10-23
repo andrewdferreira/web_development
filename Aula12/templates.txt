@@ -1,0 +1,45 @@
+Atividade - Pesquisa dos templates
+
+Template 1:
+
+Nome: Forty
+Tema(portifólio, empresa, blog): Landing Page
+O que gostou: Simples e direto  
+O que modificaria: Trocaria a paleta de cores
+Responsividade: Sim
+
+Template 2:
+
+Nome: iPortifolio
+Tema(portifólio, empresa, blog): Portifólio
+O que gostou: É objetivo
+O que modificaria: Mudaria o tema e colocaria um modo noturno
+Responsividade: Sim
+
+------------------------------------
+
+Explorar o WordPress
+
+Acesse WordPress.org e responda:
+
+1. O que é um tema no WordPress?
+R: Temas são modelos prontos de sites, ícones presentes no temas e fontes.
+2. O que é um plugin? (Dê 2 exemplos)
+R: Plugins são instalações que permite o proprietário a expandir funcionalisdaes nos seus sites.
+ Ex1: FedEx Shipping Method te permeite consumir a API do FedEx.
+ Ex2: Sensei Interactive Blocks te permite adicionar videos, imagens, formulários e etc nas suas páginas ou posts. 
+3. Qual a diferença entre página e post?
+R: Páginas são estáticas e temporais. Elas são usadas para informações fixas do site. Já os posts são dinâmicos e sempre estão sendo alterados ou adicionados.
+4. O WordPress é gratuito? (Explique)
+R: O software do WordPress é gratuito. O que é pago são os serviços de hospedagens e domínios, além de alguns plugins e temas que o WordPress fornece.
+
+------------------------------------
+
+Refletir
+
+Escreva um pequeno texto respondendo:
+
+Em qual situação você usaria: desenvolvimento próprio, template pronto ou WordPress?
+ - Desenvolvimento Próprio: usaria para estudos ou para algum projeto que eu gostaria de praticar ou ter um domínio maior de alteração.
+ - Template: usaria para algo mais objetivo alterando poucas coisas só para não desperdiçar tempo.
+ - WordPress: apenas para deixar um portifólio. 
